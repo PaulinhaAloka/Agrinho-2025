@@ -1,0 +1,15 @@
+.cabecalho{
+    background-color:#C7ECFF;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Espaço entre as colunas */
+    background-color:#C7ECFF;
+  }
+  
+  .column {
+    width: 30%; /* Largura de cada coluna (ajuste conforme necessário) */
+    padding: 10px;
+    border: 1px solid #ccc; /* Para visualizar as colunas */
+  }
