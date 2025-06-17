@@ -3,7 +3,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #e0f2f7; /* Cor de fundo mais clara, similar ao da imagem */
+            background-color: #90e9a6; /* Cor de fundo mais clara, similar ao da imagem */
             display: flex;
             justify-content: center;
             align-items: flex-start;
@@ -16,7 +16,7 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
             max-width: 1200px;
-            background-color: #e0f2f7; /* Container com cor de fundo */
+            background-color: #90e9a6; /* Container com cor de fundo */
             padding: 20px;
             /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Não é tão aparente na imagem, mas pode ser adicionado */
         }
@@ -37,7 +37,7 @@
 
         .panel-left {
             grid-column: span 1;
-            background-color: #e0f2f7; /* Cor de fundo específica para o painel da esquerda, como na imagem */
+            background-color: #90e9a6; /* Cor de fundo específica para o painel da esquerda, como na imagem */
             border: none; /* Sem borda para este painel específico */
             box-shadow: none; /* Sem sombra para este painel específico */
         }
@@ -128,7 +128,7 @@
         }
 
         .connectagro-link a {
-            color: #007bff;
+            color: #67a765;
             text-decoration: none;
             font-weight: bold;
         }
