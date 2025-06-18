@@ -3,20 +3,63 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #90e9a6; /* Cor de fundo mais clara, similar ao da imagem */
+            background-color: #c2ebcd; /* Cor de fundo mais clara, similar ao da imagem */
             display: flex;
             justify-content: center;
             align-items: flex-start;
             min-height: 100vh;
             flex-wrap: wrap;
         }
+        /* Estilos CSS para o cabeçalho */
+        header {
+            background-color: #f0f0f0; /* Um cinza claro para o fundo do cabeçalho */
+            padding: 20px 0; /* Espaçamento interno superior e inferior */
+            border-bottom: 2px solid #ddd; /* Linha sutil na parte inferior */
+            text-align: center; /* Centraliza o texto */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave para dar profundidade */
+        }
 
+        .header-content {
+            width: 850;
+            background-color: #f0f0f0;
+            box-shadow: 0 0 10px rgb(41, 97, 64);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+
+        header h1 {
+            color: #1d311b; /* Cor do texto do título */
+            font-size: 2.5em; /* Tamanho da fonte do título */
+            margin: 0; /* Remove margem padrão do h1 */
+            font-family: 'Arial', sans-serif; /* Fonte para o título */
+        }
+
+        header p {
+            color: #666; /* Cor do texto do subtítulo/slogan */
+            font-size: 1.2em; /* Tamanho da fonte do subtítulo */
+            margin-top: 10px; /* Espaçamento acima do subtítulo */
+            font-family: 'Verdana', sans-serif; /* Fonte para o subtítulo */
+        }
+
+        /* Opcional: Se você tiver um logo, pode adicionar um estilo para ele */
+        /*
+        .logo {
+            float: left;
+            margin-right: 20px;
+        }
+
+        .logo img {
+            height: 60px; // Ajuste o tamanho conforme necessário
+        }
+        */
         .container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
             max-width: 1200px;
-            background-color: #90e9a6; /* Container com cor de fundo */
+            background-color: #618d73; /* Container com cor de fundo */
             padding: 20px;
             /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Não é tão aparente na imagem, mas pode ser adicionado */
         }
@@ -48,12 +91,15 @@
 
         .panel-right {
             grid-column: span 1;
+            background-color: #90e9a6;
+            border: none; /* Sem borda para este painel específico */
+            box-shadow: none; /* Sem sombra para este painel específico */
         }
 
         .panel-title {
             font-size: 1.2em;
             font-weight: bold;
-            margin-bottom: 15px;
+            margin-bottom: 85px;
             color: #333;
             text-align: left; /* Padrão, mas pode ser sobrescrito */
         }
@@ -74,7 +120,7 @@
         }
 
         .image-placeholder {
-            background-color: #ddd;
+            background-color: #83e79c;
             height: 150px;
             display: flex;
             justify-content: center;
@@ -87,7 +133,7 @@
         }
 
         .agrinho-logo {
-            width: 100%;
+            width: 200%;
             height: auto;
             max-width: 200px;
             display: block;
@@ -124,11 +170,11 @@
 
         .connectagro-link {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 30px;
         }
 
         .connectagro-link a {
-            color: #67a765;
+            color: #4e774d;
             text-decoration: none;
             font-weight: bold;
         }
@@ -147,7 +193,7 @@
         }
         .maneiras-levar-internet .panel-subtitle {
              text-align: center; /* Centralizado como na imagem */
-             margin-bottom: 20px; /* Mais espaço para o subtítulo */
+             margin-bottom: 40px; /* Mais espaço para o subtítulo */
         }
         .maneiras-levar-internet .panel-content {
             font-size: 0.9em;
@@ -159,7 +205,7 @@
             text-align: center; /* Centralizado como na imagem */
             font-size: 1.1em;
             font-weight: normal; /* Menos negrito do que os outros títulos */
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
         .iphone-14-pro-max-1 .panel-content {
             font-size: 0.9em;
@@ -172,14 +218,14 @@
         }
         .exemplo-trabalhadores-rurais .image-row {
             display: flex;
-            gap: 20px;
+            gap: 40px;
             margin-top: 15px;
             flex-wrap: wrap; /* Permite que as imagens se quebrem em telas menores */
             justify-content: center; /* Centraliza as imagens quando houver quebra */
         }
         .exemplo-trabalhadores-rurais .image-item {
             flex: 1;
-            min-width: 250px; /* Garante que as imagens não fiquem muito pequenas */
+            min-width: 100px; /* Garante que as imagens não fiquem muito pequenas */
         }
 
         /* Responsive adjustments */
